@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(4, 73, 78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+section {
+    border: rgb(0, 0, 0) 10px double;
+    background-color: rgb(121, 197, 198);
+    min-height: 400px;
+    min-width: 200px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+p{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div {
+    font-size: 35px;
+}
+
+button {
+    min-height: 30px;
+    min-width: 130px;
+    font-size: 15px;
+    border-radius:5px;
+    background-color: rgb(137, 151, 152);
+    cursor: pointer;
+    margin: 40px;
+    padding: 10px;
+}
